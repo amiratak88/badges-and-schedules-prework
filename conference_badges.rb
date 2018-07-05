@@ -27,3 +27,4 @@ def printer(arr)
     puts assign_rooms(arr)[i]
   end
 end
+batch_badge_creator()
