@@ -23,8 +23,7 @@ end
 
 def printer(arr)
   arr.each_with_index do |name, i|
-    puts badge_maker(arr)[i]
+    puts badge_maker(name)
     puts assign_rooms(arr)[i]
   end
 end
-batch_badge_creator(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
