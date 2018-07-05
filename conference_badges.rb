@@ -11,7 +11,7 @@ def batch_badge_creator(arr)
   res
 end
 
-def assign_room(arr)
+def assign_rooms(arr)
   res = []
   room = 1
   arr.each do |name|
@@ -21,4 +21,7 @@ def assign_room(arr)
   res
 end
 
-def printer
+def printer(arr)
+  puts batch_badge_creator(arr)
+  puts assign_rooms(arr)
+end
