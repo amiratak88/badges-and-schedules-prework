@@ -22,5 +22,7 @@ def assign_rooms(arr)
 end
 
 def printer(arr)
-  arr.each do |name|
+  arr.each_with_index do |name, i|
+    puts
+  end
 end
